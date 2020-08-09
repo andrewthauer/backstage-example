@@ -4,6 +4,6 @@ import WelcomePage from './components/WelcomePage';
 export const plugin = createPlugin({
   id: 'welcome',
   register({ router }) {
-    router.registerRoute('/', WelcomePage);
+    router.registerRoute('/welcome', WelcomePage);
   },
 });
