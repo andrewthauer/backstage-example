@@ -1,8 +1,10 @@
-name: CI
+name: Main
 
 on:
   push:
-    branches: [matrix.node-version]
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
